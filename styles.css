@@ -1,36 +1,60 @@
+@font-face {
+    font-family: 'CormorantGaramond-Medium'; /* Give your font a name */
+    src: url('fonts/CormorantGaramond-Medium.ttf') format('truetype'),    
+}
+
 body {
     background: #A6A6A6;
     margin: 0%;
+    font-family: 'CormorantGaramond-Medium', serif;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     flex: auto;
     color: #1d1d1f;
-    background: #f5f5f7;
     margin: 0%;
-    padding: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-right: 200px;
+    font-family: 'CormorantGaramond-Medium', serif;
+    padding-top: 55px;
+    
 }
 
 a {
     color: inherit;
     font-size: 25px;
+    padding: 1rem;
+    text-transform: uppercase;
 }
 
 a:hover {
-    color: #8C8181;
+    color: #D9D4CC;
     cursor: pointer;
 }
 
-header {
+.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1px;
+    font-family: 'CormorantGaramond-Medium', serif;
+    text-transform: uppercase;
+    font-size: 6.5rem;
+    color: #1d1d1f;
+}
+
+p.header {
+    margin: 0px;
+    margin-left: 200px;
+}
+
+.sub-header {
     display: flex;
     justify-content: center;
-    margin: 50px;
-    padding: 15px;
-    font-size: 75px;
-    color: #1d1d1f;
+    text-transform: uppercase;
+    font-family: 'CormorantGaramond-Medium', serif;
+    margin-top: 2px;
+    padding-right: 55px;
 }
 
 h1 {
@@ -38,12 +62,12 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 150px 300px;
-    padding: 50px;
+    margin: 50px 200px 5px 900px;
+    padding: 35px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #1d1d1f;
-    background-image: linear-gradient(to bottom right,#D9D4CC, #8C8181);
+    background-image: linear-gradient(to bottom right,#d6d4d4, #8f8d8d);
 }
 
 p {
@@ -52,17 +76,38 @@ p {
     text-align: center;
 }
 
+.aboutme {
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #1d1d1f;
+}
+
+.projects-title {
+    font-size: 6.5rem;
+    margin: 100px 300px 0px 0px;
+    justify-content: center;
+    color: #1d1d1f;
+}
+
 .projects_section {
     padding: 300px;
     padding-top: 35px;
+    margin-top: 55px;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     background: #D9D4CC;
     text-align: center;
+    color: #1d1d1f;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 5%;
 }
 
 h2 {
-    margin-top: 55px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -70,20 +115,25 @@ h2 {
 }
 
 span, .projects {
-    margin-top: 100px;
+    margin-top: 15px;
     padding: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50rem;
     margin: 30px;
-    background: #8C8181;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     font-size: 20px;
-    background-image: linear-gradient(to bottom right,#D9D4CC, #8C8181);
+    background: #8f8d8d;
+    color: #1d1d1f;
 }
 
 a {
@@ -105,7 +155,7 @@ a {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background: #D9D4CC
+    background: #D9D4CC;
 }
 
 section {
@@ -148,7 +198,6 @@ form {
     border-radius: 10px;
     padding: 0 10px;
     outline: none;
-    color: ;
 }
 
 #textbox {
@@ -156,7 +205,6 @@ form {
     border: none;
     padding: 10px 15px;
     outline: none;
-    color: ;
 }
 
 input[type=submit] {
