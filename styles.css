@@ -21,7 +21,7 @@ body {
     
 }
 
-a {
+.resume, .projectslink, .bloglink {
     color: inherit;
     font-size: 25px;
     padding: 1rem;
@@ -100,10 +100,16 @@ p {
     color: #1d1d1f;
 }
 
-img {
-    max-width: 20%;
+.weatherlanding {
+    max-width: 50%;
     height: auto;
     border-radius: 5%;
+}
+
+.tvSeriesLanding {
+    max-height: 6rem;
+    width: auto;
+    margin: 15px;
 }
 
 h2 {
@@ -142,11 +148,13 @@ a {
 
 .contact_links {
     display: flex;
-    justify-content: center;
+    margin-left: 20rem;
+    margin-right: 0rem;
 }
 
-.github, .linkedin {
-    margin: 20px;
+.github, .linkedin, .X {
+    margin: 15px;
+    max-height: 30px;
 }
 
 .connect, .blog {
