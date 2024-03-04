@@ -386,8 +386,9 @@ h4 {
     }
 
     h4 {
+        margin: 0 auto;
         padding: 15px;
-        width: 100%;
+        width: 50%;
         font-size: 9px;
     }
 
