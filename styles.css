@@ -221,14 +221,10 @@ h4 {
  
     .navbar {
         padding: 0;
-        margin: 0;
+        margin-top: 6%;
         justify-content: flex-end;
         text-align: center;
         width: 100%;
-    }
-
-    .contact_links {
-        margin: 0;
     }
 
     .resume, .bloglink {
@@ -237,12 +233,8 @@ h4 {
         padding: 5px;
     }
 
-    .contact_links p{
-        margin: 0;
-    }
-
     header {
-        padding: 0;
+        padding: 8%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -279,16 +271,6 @@ h4 {
         margin: 0px 15px;
         max-height: 20px;
     }
-    
-    /* .about-me {
-        display: flex;
-        font-size: 1rem;
-    }
-
-    .aboutme {
-        text-align: center;
-        font-size: .75rem;
-    } */
 
     h2 {
         width: 100%;
@@ -314,28 +296,23 @@ h4 {
         width: 100%;
     }
 
-    /* .projects-title {
-        margin: 5px;
-        margin-top: 35px;
-        font-size: 1.2rem;
-        width: 50%;
-    } */
-
-    span {
-        width: 50%;
-    }
-
     .projects {
+        display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
         width: 100%;
-        margin: 0;
     }
-
+    
     .links {
-        max-height: 2%;
+        max-width: 25%;
     }
-
+    
+    .links a {
+        max-height: 2%;
+        font-size: 11px;
+    }
+    
     .links li {
         margin: 0;
     }
@@ -360,9 +337,8 @@ h4 {
         font-size: 1rem;
     }
 
-    .contact_links {
-        margin: 0;
-        justify-content: center;
+    .X, .linkedin, .github, .skills {
+        transform: scale(.75, .75);
     }
 
     section {
