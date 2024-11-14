@@ -91,6 +91,14 @@ p {
     color: #1d1d1f;
 } */
 
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+}
+
 .weatherlanding {
     max-width: 14rem;
     height: auto;
