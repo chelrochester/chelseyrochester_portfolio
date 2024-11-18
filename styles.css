@@ -119,6 +119,9 @@ h2 {
 }
 
 .skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 3%;
     flex-shrink: 2;
     background-image: linear-gradient(to bottom right,#d6d4d4, #8f8d8d);
