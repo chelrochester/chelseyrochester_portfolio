@@ -28,10 +28,17 @@ body {
     padding: 1rem;
     text-transform: uppercase;
     color: hsl(37, 15%, 83%);
+    transition: all 0.5s ease-out;
+}
+
+.resume:hover, .github:hover, .linkedin:hover, .X:hover {
+    background-color: hsl(37, 15%, 83%);
+    color: #333;
+    border-radius: 5%;
 }
 
 a:hover {
-    color: #1d1d1f;
+    color: #333;
     cursor: pointer;
 }
 
@@ -64,6 +71,8 @@ a:hover {
 .github, .linkedin, .X {
     margin: 15px;
     max-height: 30px;
+    transition: all 0.5s ease-out;
+    padding: 5%;
 }
 
 /* .about-me {
@@ -115,6 +124,10 @@ h2 {
     background-image: linear-gradient(to bottom right,#d6d4d4, #8f8d8d);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills:hover {
+    background-color: none;
 }
 
 .weatherlanding {
